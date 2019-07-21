@@ -1,0 +1,122 @@
+﻿* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 100vh;
+    max-width: 100vw
+}
+
+.center {
+    display: flex;
+    overflow-wrap: break-word;
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+.container {
+    max-height: 80%;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex: 1;
+    resize: horizontal;
+    /*border: 1px solid red;*/
+}
+
+.item {
+    display: inline;
+    width: 100%;
+    border: 3px solid #000000;
+    overflow-y: scroll;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 5%;
+    /**/ border-bottom: 10px solid #ccc;
+    border-bottom: 3px ridge #808080;
+}
+
+footer {
+    padding: 15px;
+    overflow-y: scroll;
+    height: 14%;
+    bottom: 0;
+    width: 100%;
+}
+
+.form {
+    height: 100%;
+    width: 100%;
+}
+
+.switchbutton {
+    height: 100%;
+}
+
+.tabs {
+    border: 1px solid #ff6a00;
+    width: 100%;
+    height: 3%;
+}
+
+.tabheader {
+    border-bottom: 5px ridge #808080;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tablecell {
+    border: 2px Ridge #808080
+
+}
+
+.tablecellif {
+    background-color: #a8a917
+}
+
+.tablecellid {
+    background-color: #ff6a00
+}
+
+.tablecellex {
+    background-color: #9f1010
+}
+
+.tablecellmem {
+    background-color: #0d700c
+}
+
+.tablecellwb {
+    background-color: #25158e
+}
+
+
+.headerButton {
+    height: 100%;
+    width: 50px;
+    cursor: pointer;
+    background-size: contain;
+}
+
+#playButtonn {
+
+    background-image: url('icons/play.png');
+}
+#stepbutton {
+    background-image: url('icons/step.png');
+}
+#cyclebutton {
+    background-image: url('icons/cycle.png');
+}
